@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang cuu chuong</title>
+</head>
+<body>
+<script>
+    let i;
+    let j;
+    let multiplication_table;
+    multiplication_table = "<table border='2' width='5' cellpadding='5' cellspacing='5'>";
+    for(i=1; i<=10; i++){
+        multiplication_table = multiplication_table + "<tr>";
+        for(j=2; j<=10; j++){
+            multiplication_table = multiplication_table+"<td>" + i + "x"+j + "=" + i*j +"</td>"
+        } j=1; multiplication_table =multiplication_table+ "</tr>"
+    }
+    multiplication_table = multiplication_table + "</table>";
+    document.write(multiplication_table);
+
+</script>
+</body>
+</html>
